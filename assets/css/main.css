@@ -1,0 +1,104 @@
+body{
+  margin: 0 auto;
+  background-image: url("../../assets/images/fondo.jpg");
+  background-size: cover; /*para que la imagen quede extendida y no repetida*/
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  margin: 0;
+  text-align: center;
+  background-color: #6ad2f3;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+header h1{
+  margin: 0;
+}
+
+.description-box{
+  width: 500px;
+  height: 280px;
+  display: inline-block;
+  margin: 0;
+}
+
+.description{
+  display: inline-block;
+  background-color: white;
+  width: 500px;
+  height: 280px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+.description *{
+  margin-left: 50px;
+  line-height: 50px;
+}
+
+.description h2{
+  padding-top: 20px;
+}
+
+.description a{
+  text-decoration: none;
+  color: blue;
+  margin-left: 0;
+
+}
+
+.comments{
+  display: inline-block;
+  float: right;
+  width: 560px;
+  height: 280px;
+  margin-right: 100px;
+}
+
+.container{
+  display: inline-block;
+  float: right;
+  background-color: white;
+  width: 560px;
+  height: 200px;
+  margin-top: 10px;
+  margin-right: 0px;
+}
+
+#btn{
+  background-color: #6ad2f3;
+  border-radius: 7px;
+  color: white;
+  width: 80px;
+  height: 30px;
+  display: inline-block;
+  float: left;
+  position: relative;
+  margin-left: 20px;
+  top: 150px;
+}
+
+#comment{
+  margin-top: 10px;
+  border: none;
+  height: 100px;
+  width: 350px;
+}
+
+#cont{
+  margin-left: 1em;
+}
+
+#cont div{
+  padding: 1em 0.5em;
+  margin-bottom: 2em;
+  background-color: white;
+  margin-top: 40px;
+  margin-left: 85px;
+  margin-right: 100px;
+  border-radius: 8px;
+  border: none;
+}
